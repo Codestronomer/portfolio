@@ -13,7 +13,7 @@ function Footer() {
         <div className="socials">
           <div className="socials-border">
             <a
-              href="https://twitter.com/Alexius_ia"
+              href="https://twitter.com/_codenaut"
               target="_blank"
               rel="noreferrer"
             >
@@ -23,7 +23,7 @@ function Footer() {
 
           <div className="socials-border">
             <a
-              href="https://github.com/Teepee78"
+              href="https://github.com/codestronomer"
               target="_blank"
               rel="noreferrer"
             >
@@ -35,7 +35,7 @@ function Footer() {
 
       <div className="footer-right">
         <div className="footer-name">
-          <p>toluwalase-phillips</p>
+          <p>John Rumide</p>
         </div>
       </div>
     </div>

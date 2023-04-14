@@ -1,6 +1,6 @@
 import "./Projects.css";
-import rec1 from "../../assets/svg/Rectangle 42.svg";
-import rec2 from "../../assets/svg/Rectangle 43.svg";
+import rec1 from "../../assets/svg/devask (2).png";
+import rec2 from "../../assets/svg/Terminal.jpg";
 
 function Cards(props) {
   return (
@@ -29,24 +29,25 @@ function Projects() {
   return (
     <div className="Projects">
       <div className="projects-title">
-        <p>projects</p>
+        <p>Featured projects</p>
       </div>
 
       <div className="projects-cards">
         <Cards
-          title="ChowAI"
-          lang="// python(fastAPI)"
+          title="Devask"
+          lang="// python(fastAPI), React"
           img={rec1}
-          desc="ChowAi is an AI-powered application that provides a wide variety of recipes for African dishes and also suggests dishes based on user-inputted ingredients."
-          url="https://chowai.com"
+          desc="Devask is an application that allows developers to connect and get answers to technical questions"
+          url="https://devask.tech"
         />
         <Cards
-          title="StreetRates"
-          lang="// python(fastAPI)"
+          title="Monty interpreter"
+          lang="// C"
           img={rec2}
-          desc="StreetRates is an application that allows users to convert currencies using the parallel bank rate. It also provides users with additional information about currency fluctuations and helps them to make informed decisions about international transactions."
-          url="https://streetrates.info"
+          desc="An interpreter for Monty bytecodes written in C"
+          url="https://github.com/Codestronomer/monty"
         />
+        {/* <Cards */}
         {/* <Cards
           title="ChowAI"
           lang="// python(fastAPI)"

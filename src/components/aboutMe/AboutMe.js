@@ -39,7 +39,7 @@ function AboutMe() {
             </div>
             <div className="contact-email-big">
               <img src={mailIcon} alt="mail icon"></img>
-              <p>eniolatoluwalase78@gmail.com</p>
+              <p>johnrumide6@gmail.com</p>
             </div>
           </div>
 
@@ -52,21 +52,19 @@ function AboutMe() {
                 <div className="border-left"></div>
               </div>
               <p className="bioContent">
-                I am a software developer with one year of experience in a
-                variety of programming languages and frameworks.
+                I am a software developer who has gained valuable experiences
+                over the past two years in a wide range of programming languages and frameworks.
                 <br />
                 <br />
-                My expertise includes Python, NodeJS, TypeScript, C, C++, Bash, SQL, HTML,
-                CSS and Git tools. I have experience working with frameworks
-                such as FastAPI, ExpressJS, React, Django, Flask, and Bootstrap.
+                 My skills include expertise in Python, NodeJS, TypeScript, C, C++, Bash, SQL, HTML, CSS, and Git tools.I have extensive experience working with popular frameworks such as FastAPI, ExpressJS, React, Django, Flask, and Bootstrap.
                 <br />
                 <br />
-                I am well-versed in using Git for version control and
-                collaboration.
+                In my work, I prioritize the use of Git for version control and collaboration.
+                I'm committed to ensuring that my code is well-documented and easy to understand.
                 <br />
-                <br />I am a quick learner and am always looking to expand my
-                skills and knowledge in the field. I am excited to continue to
-                develop my skills and work on challenging and engaging projects.
+                <br />As a quick learner,
+                I am always seeking to expand my skills and knowledge in the field.
+                I am passionate about creating high-quality, scalable software solutions that meet the needs of end-users and am confident that I can make a valuable contribution to any team.
               </p>
             </div>
 
@@ -78,10 +76,11 @@ function AboutMe() {
                 <div className="border-left"></div>
               </div>
               <div className="interestsContent">
-                <p className="orange-text">writing code</p>
-                <p className="grey-text">watching movies</p>
-                <p className="orange-text">playing games</p>
-                <p className="grey-text">making music</p>
+                <p className="grey-text">Watching Anime and Scifi-movies</p>
+                <p className="orange-text">Writing code</p>
+                <p className="grey-text">Astronomy</p>
+                <p className="orange-text">Playing games</p>
+                <p className="grey-text">bit of an Audiophile</p>
               </div>
             </div>
 
@@ -91,7 +90,7 @@ function AboutMe() {
             </div>
             <div className="contact-email contact-small">
               <img src={mailIcon} alt="mail icon"></img>
-              <p>eniolatoluwalase78@gmail.com</p>
+              <p>johnrumide6@gmail.com</p>
             </div>
           </div>
         </div>

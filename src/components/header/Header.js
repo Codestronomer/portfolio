@@ -13,7 +13,7 @@ function Header() {
   return (
     <div className="header">
       <div className="logo-name text-border">
-        <p id="logo-name">toluwalase-phillips</p>
+        <p id="logo-name">John Rumide</p>
       </div>
 
       <div
@@ -48,7 +48,7 @@ function Header() {
         {/* <div className='place-holder text-border'></div> */}
 
         <div className="contact-me">
-          <a href="mailto:eniolatoluwalase78@gmail.com" onClick={handleToggle}>
+          <a href="mailto:johnrumide6@gmail.com" onClick={handleToggle}>
             <p>_contact-me</p>
           </a>
         </div>
