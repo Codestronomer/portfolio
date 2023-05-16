@@ -1,6 +1,7 @@
 import "./Projects.css";
 import rec1 from "../../assets/svg/devask (2).png";
 import rec2 from "../../assets/svg/Terminal.jpg";
+import rec3 from "../../assets/svg/Screenshot 2023-05-16 125415.png";
 
 function Cards(props) {
   return (
@@ -33,6 +34,13 @@ function Projects() {
       </div>
 
       <div className="projects-cards">
+        <Cards
+          title="Mumble"
+          lang="// TypeScript, Next.js, React.js, Node.js"
+          img={rec3}
+          desc="A music marketplace for producers, sound engineers and artists."
+          url="https://mumble-client.vercel.app/"
+        />
         <Cards
           title="Devask"
           lang="// python(fastAPI), React"
@@ -76,6 +84,11 @@ function Projects() {
           desc="StreetRates is an application that allows users to convert currencies using the parallel bank rate. It also provides users with additional information about currency fluctuations and helps them to make informed decisions about international transactions."
           url="https://streetrates.info"
         /> */}
+      </div>
+      <div className="projects-links">
+        <p>
+          <a href="https://docs.google.com/document/d/1F4BV5C4B4EsUZBFwbl2qwtZlaAQhntZP_9SMIx9H00c/edit?usp=sharing">View More</a>
+        </p>
       </div>
     </div>
   );
